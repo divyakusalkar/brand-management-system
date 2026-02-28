@@ -1,0 +1,12 @@
+package com.brandmanagement;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BrandManagementApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BrandManagementApplication.class, args);
+    }
+}

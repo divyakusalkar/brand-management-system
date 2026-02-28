@@ -1,0 +1,31 @@
+# Maven / Spring Boot backend
+brand-management-backend/target/
+brand-management-backend/.mvn/wrapper/maven-wrapper.jar
+brand-management-backend/*.class
+
+# Node / React frontend
+node_modules/
+**/node_modules/
+brand-management-frontend/dist/
+brand-management-frontend/.env
+brand-management-frontend/.env.local
+brand-management-frontend/.env.production
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
