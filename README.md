@@ -2,7 +2,7 @@
 
 A full-stack web application for managing brands and their associated companies (chains). Built with a **Spring Boot** REST API backend and a **React + Vite** frontend styled with Tailwind CSS.
 
----
+
 
 ## Features
 
@@ -13,7 +13,7 @@ A full-stack web application for managing brands and their associated companies 
 - **Toast Notifications** — Instant feedback for all user actions
 - **RESTful API** — Clean JSON API with validation and centralized error handling
 
----
+
 
 ## Tech Stack
 
@@ -38,7 +38,7 @@ A full-stack web application for managing brands and their associated companies 
 | React Router DOM | 7 |
 | React Hot Toast | 2.x |
 
----
+
 
 ## Project Structure
 
@@ -61,7 +61,7 @@ Brand Management System/
         └── api/                    # Axios API client (brandApi.js)
 ```
 
----
+
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ Brand Management System/
 - **MySQL 8+** running locally
 - **Node.js 18+** and **npm**
 
----
+
 
 ## Getting Started
 
@@ -89,7 +89,7 @@ spring.datasource.username=root
 spring.datasource.password=root
 ```
 
----
+
 
 ### 2. Run the Backend
 
@@ -102,7 +102,7 @@ The API will start on **http://localhost:8080**.
 
 Seed data (5 companies and 5 brands) is loaded automatically on startup via `data.sql`.
 
----
+
 
 ### 3. Run the Frontend
 
@@ -114,7 +114,7 @@ npm run dev
 
 The React app will be available at **http://localhost:5173**.
 
----
+
 
 ## API Reference
 
@@ -161,7 +161,7 @@ Content-Type: application/json
 }
 ```
 
----
+
 
 ## Environment Configuration
 
@@ -175,7 +175,7 @@ All backend configuration lives in `application.properties`:
 | `spring.datasource.password` | `root` | MySQL password |
 | `spring.jpa.hibernate.ddl-auto` | `update` | Schema auto-update strategy |
 
----
+
 
 ## Error Handling
 
@@ -188,7 +188,7 @@ The API returns structured error responses for all failure cases:
 | Brand linked to active Zone | `409 Conflict` |
 | Validation failure | `400 Bad Request` |
 
----
+
 
 ## Contributing
 
@@ -198,7 +198,7 @@ The API returns structured error responses for all failure cases:
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
----
+
 
 ## License
 
